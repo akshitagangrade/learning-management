@@ -8,16 +8,16 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-    <asset:stylesheet href="bootstrap.min.css"/>
-    <asset:javascript src="jquery.min.js"/>
-    <asset:javascript src="bootstrap.min.js"/>
-    <asset:stylesheet href="custom.css"/>
+    <meta name="layout" content="abclayout">
+    <title>list</title>
+
 </head>
 
 <body>
-<g:render template="/templates/myNavbar" model="[myCurrentPage: 'list']"></g:render>
+<%--
+code for templates rendering
+<g:render template="/templates/myNavbar" model="[myCurrentPage: 'list']"></g:render> --%>
+
 
 <table class="table table-bordered table-hover">
         <thead>

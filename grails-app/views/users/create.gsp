@@ -1,15 +1,10 @@
 <html>
     <head>
-        <asset:stylesheet href="bootstrap.min.css"/>
-        <asset:javascript src="jquery.min.js"/>
-        <asset:javascript src="bootstrap.min.js"/>
-        <asset:stylesheet href="custom.css"></asset:stylesheet>
+        <meta name="layout" content="abclayout">
+        <title>create</title>
     </head>
 
 <body>
-
-<g:render template="/templates/myNavbar" model="[myCurrentPage: 'create']"></g:render>
-
         <h2> REGISTRATION FROM:</h2>
         <div class="container">
             <form name="signup" method="post" action="/learning-management/Users/save">
