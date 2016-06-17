@@ -1,0 +1,23 @@
+.navbar-padding {
+    background-color: #449d44;
+    margin-top: .2%;
+}
+
+.navbar-padding .navbar-nav>.active>a {
+    background-color: green;
+}
+
+.dl-horizontal{
+    padding-top: 20px;
+    border: 1px solid black;
+    height: 20%;
+    width: 30%;
+
+}
+.table{
+    border-width: 3px ;
+}
+
+.dummy{
+    padding: 10px 10px;
+}
