@@ -17,6 +17,10 @@
                      <input type="text" class="form-control" name="lastName">
                 </div>
                 <div class="form-group">
+                    <label for="email"> Email :</label>
+                    <input type="text" class="form-control" name="email" id="email">
+                </div>
+                <div class="form-group">
                     <label for="Age"> Age : </label>
                     <input type="number" class="form-control" name="age" id="age">
                 </div>
