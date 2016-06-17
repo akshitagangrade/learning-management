@@ -24,7 +24,7 @@
                 <li class="${myCurrentPage.equals('create') ? 'active' : ''}">
                     <a class="nav" href="/learning-management/users/create.gsp">Create</a>
                 </li>
-                <li><a class="nav" href="shosw.gsp">Show</a></li>
+                <li><a class="nav" href="show.gsp">Show</a></li>
                 <li><a class="nav" href="list.gsp">List</a></li>
             </ul>
         </div>
