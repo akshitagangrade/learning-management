@@ -14,7 +14,7 @@
 
 <body>
     <content tag="pagename">
-        <h2>CREATE</h2>
+        <h2>EDIT</h2>
     </content>
     <content tag="title">
         <h3> REGISTRATION FROM:</h3>
@@ -23,7 +23,6 @@
         <div class="container-fluid">
             <form name="signup" method="post" action="/learning-management/Users2/update">
                 <div class="form-group">
-
                     <input type="hidden" name="id" value="${editing.id}">
                     <label for="firstName"> FirstName: </label>
                     <input type="text" class="form-control" name="firstName" id="firstName" value="${editing.firstName}">

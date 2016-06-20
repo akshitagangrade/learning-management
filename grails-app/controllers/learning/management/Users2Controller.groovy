@@ -4,6 +4,8 @@ class Users2Controller {
 
     //create a form
     def create2() {
+        //adding values
+        [myValue : new Person()]
 
     }
     //save details of users and create session
@@ -12,8 +14,17 @@ class Users2Controller {
         //using person in class domain for database
         Person sc = new Person([firstName: params.firstName, lastName: params.lastName, email:params.email,
                                 age: params.age])
+
         //calls save method which itself calls id and version
         sc.save()
+
+        println sc.errors
+
+        //checking errors
+        if (sc.hasErrors()) {
+            render(view: 'create2', model: [myUser: sc])
+            return
+        }
 
         redirect(action: "show2", id: sc.id)
 
@@ -51,9 +62,15 @@ class Users2Controller {
 
         myPerson.save(flush: true)
         redirect(action: 'list2')
+    }
 
+    def delete() {
 
+        println "deleting from person for an id"
+        Person personInstance = Person.get(params.id)
 
+        personInstance.delete(flush : true)
 
+        redirect(action: "list2")
     }
 }

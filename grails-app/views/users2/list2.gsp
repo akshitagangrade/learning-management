@@ -48,6 +48,9 @@
                             <a class="nav" href="/learning-management/users2/edit/${ls.id}">
                                 edit
                             </a>
+                            <a class="nav" href="/learning-management/users2/delete/${ls.id}">
+                                delete
+                            </a>
                         </td>
                     </tr>
                 </g:each>
