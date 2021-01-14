@@ -9,7 +9,7 @@ class SaveContent {
     String myage
     int myid
 
-    //to change lower clase to upper case over here
+    //to change lower clase to upper case over
     void myTask() {
         myfirstName = myfirstName.toUpperCase()
         mylastName = mylastName.toUpperCase()
