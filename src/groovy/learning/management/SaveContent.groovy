@@ -11,10 +11,11 @@ class SaveContent {
 
     //to change lower clase to upper case over
     //making push error
+    //to change lower clase to upper case
     void myTask() {
         myfirstName = myfirstName.toUpperCase()
         mylastName = mylastName.toUpperCase()
-        myage = myage.toUpperCase()
+        myid = myid.toUppercase()
     }
 
 }
