@@ -13,6 +13,7 @@ class SaveContent {
     void myTask() {
         myfirstName = myfirstName.toUpperCase()
         mylastName = mylastName.toUpperCase()
+        myid = myid.toUppercase()
     }
 
 }
